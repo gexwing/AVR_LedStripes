@@ -3,40 +3,26 @@
 
 #include <stdint.h>
 
-enum hsvmode {FIXED,FADE,STROBE,FLASH};
-
 typedef struct
 {
-	uint8_t r, g, b; //8bit Values
-} RGBValue;
-
-typedef struct
-{
-	uint8_t hue,sat,val; //8bit Values
-	enum hsvmode mode;
-	uint8_t speed;
-	uint8_t steps;
-} HSVValue;
-
-RGBValue hsv_to_rgb(HSVValue hsv);
-
-// NEW
-typedef struct
-{
-	uint8_t r, g, b; //8bit Values
+	uint8_t r, g, b;
 } Color_RGB;
 
 typedef struct
 {
-    uint8_t hue, sat, val; //8bit Values
+    uint8_t hue, sat, val;
 } Color_HSV;
+
+enum hsvmode {FIXED,FADE,STROBE,FLASH};
 
 typedef struct
 {
-    struct Color_HSV color;
+    Color_HSV hsv;
     enum hsvmode mode;
 	uint8_t speed;
 	uint8_t steps;
 } LED_Status;
+
+Color_RGB hsv_to_rgb(Color_HSV hsv);
 
 #endif

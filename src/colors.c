@@ -1,7 +1,7 @@
 #include "colors.h"
 
-RGBValue hsv_to_rgb(const HSVValue hsv){
-    RGBValue rgb;
+Color_RGB hsv_to_rgb(const Color_HSV hsv){
+    Color_RGB rgb;
 
     if(hsv.sat == 0)
     {

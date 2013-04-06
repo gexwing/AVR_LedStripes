@@ -4,18 +4,18 @@
 #include "softpwm.h"
 #include "colors.h"
 
-volatile HSVValue hsv;
+volatile LED_Status led;
 uint8_t compare[CHMAX];
 
 void pwm_init(void)
 {
     // Starting Color/Mode
-    hsv.hue=0;
-    hsv.sat=0;
-    hsv.val=255;
-    hsv.mode=FIXED;
-    hsv.speed=100;
-    hsv.steps=100;
+    led.hsv.hue=0;
+    led.hsv.sat=0;
+    led.hsv.val=255;
+    led.mode=FIXED;
+    led.speed=100;
+    led.steps=100;
 
 
     DDRB = PORTB_MASK;             // set port pins to output
@@ -32,12 +32,12 @@ void pwm_init(void)
     TCCR0  = (1 << CS00);           // start timer, no prescale
 }
 
-void sethsv(uint8_t hue, uint8_t sat, uint8_t val)
+void setled(uint8_t hue, uint8_t sat, uint8_t val)
 {
-    hsv.hue=hue;
-    hsv.sat=sat;
-    hsv.val=val;
-    hsv.steps=100;
+    led.hsv.hue=hue;
+    led.hsv.sat=sat;
+    led.hsv.val=val;
+    led.steps=100;
 }
 
 /*! \brief Interrupt Service Routine
@@ -61,37 +61,37 @@ ISR(TIMER0_OVF_vect)
         pinlevelB |= PORTB_MASK;
         pinlevelD |= PORTD_MASK;
 
-        RGBValue rgb = hsv_to_rgb(hsv);
+        Color_RGB rgb = hsv_to_rgb(led.hsv);
 
-        if (hsv.steps<=0)
+        if (led.steps<=0)
         {
-            hsv.steps=1;
+            led.steps=1;
         }
-        compare[0]+=(rgb.r-compare[0])/hsv.steps;
-        compare[1]+=(rgb.g-compare[1])/hsv.steps;
-        compare[2]+=(rgb.b-compare[2])/hsv.steps;
-        hsv.steps--;
+        compare[0]+=(rgb.r-compare[0])/led.steps;
+        compare[1]+=(rgb.g-compare[1])/led.steps;
+        compare[2]+=(rgb.b-compare[2])/led.steps;
+        led.steps--;
 
 
         //Color Changing
-        if (++count2 == hsv.speed)
+        if (++count2 == led.speed)
         {
-            switch (hsv.mode)
+            switch (led.mode)
             {
             case FLASH:
-                hsv.hue+=100;
-                hsv.steps=200;
+                led.hsv.hue+=100;
+                led.steps=200;
                 break;
 
             case FADE:
-                hsv.hue+=1;
-                hsv.steps=0;
+                led.hsv.hue+=1;
+                led.steps=0;
                 break;
 
             case STROBE:
-                hsv.steps=1;
-                if (hsv.val) hsv.val=0;
-                else hsv.val=255;
+                led.steps=1;
+                if (led.hsv.val) led.hsv.val=0;
+                else led.hsv.val=255;
                 break;
             default:
                 break;
