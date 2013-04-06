@@ -1,0 +1,6 @@
+#ignore Dropbox metafolder
+.dropbox
+
+#ignore build directories
+obj/
+bin/
