@@ -1,0 +1,7 @@
+#ignore Autobackup files of eagle
+*.b#?
+*.b##
+*.s#?
+*.s##
+*.l#?
+*.l##
