@@ -1,5 +1,8 @@
-#ignore Dropbox metafolder
+#ignore metadata
 .dropbox
+.gitignore~
+*.depend
+*.layout
 
 #ignore build directories
 obj/
