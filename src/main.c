@@ -1,4 +1,3 @@
-#include <inttypes.h>
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include "irmp/irmp.h"
@@ -52,6 +51,7 @@ int main (void)
     {
         if (!irmp_get_data(&irmp_data)) continue;
 
+        //Repeating Commands
         if (!(irmp_data.flags&&IRMP_FLAG_REPETITION))
         {
             switch (irmp_data.command)
@@ -123,6 +123,8 @@ int main (void)
                 break;
             }
         }
+
+        //Non-Repeating Commands
         switch (irmp_data.command)
         {
             //Lightness
@@ -146,37 +148,37 @@ int main (void)
             //Predefined Colors
         case 0x04: //R
             led.mode=FIXED;
-            setled(0,255,255);
+            sethsv(0,255,255);
             break;
 
         case 0x05: //G
             led.mode=FIXED;
-            setled(85,255,255);
+            sethsv(85,255,255);
             break;
 
         case 0x06: //B
             led.mode=FIXED;
-            setled(170,255,255);
+            sethsv(170,255,255);
             break;
 
         case 0x07: //W
             led.mode=FIXED;
-            setled(0,0,255);
+            sethsv(0,0,255);
             break;
 
         case 0x08:
             led.mode=FIXED;
-            setled(42,255,255);
+            sethsv(42,255,255);
             break;
 
         case 0x09:
             led.mode=FIXED;
-            setled(127,255,255);
+            sethsv(127,255,255);
             break;
 
         case 0x0A:
             led.mode=FIXED;
-            setled(212,255,255);
+            sethsv(212,255,255);
             break;
 
         case 0x0C: // Speed+

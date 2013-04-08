@@ -18,21 +18,21 @@ void pwm_init(void)
     led.steps=100;
 
 
-    DDRB = PORTB_MASK;             // set port pins to output
+    DDRB = PORTB_MASK;         // set port pins to output
     DDRD = PORTD_MASK;
 
     unsigned char i=0;
     for(; i<CHMAX ; i++)       // initialise all channels
     {
-        compare[i] = 0;            // set default PWM values
+        compare[i] = 0;         // set default PWM values
     }
 
-    TIFR  |= (1 << TOV0);           // clear interrupt flag
-    TIMSK |= (1 << TOIE0);         // enable overflow interrupt
-    TCCR0  = (1 << CS00);           // start timer, no prescale
+    TIFR  |= (1 << TOV0);       // clear interrupt flag
+    TIMSK |= (1 << TOIE0);      // enable overflow interrupt
+    TCCR0  = (1 << CS00);       // start timer, no prescale
 }
 
-void setled(uint8_t hue, uint8_t sat, uint8_t val)
+void sethsv(uint8_t hue, uint8_t sat, uint8_t val)
 {
     led.hsv.hue=hue;
     led.hsv.sat=sat;
