@@ -3,6 +3,10 @@
 .gitignore~
 *.depend
 *.layout
+*.md~
+
+#ignore Datasheet PDF's to keep repository smaller
+docs/*.pdf
 
 #ignore build directories
 obj/
