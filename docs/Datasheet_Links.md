@@ -1,6 +1,10 @@
-FDS8884
+FDS8884 Datasheet (N-Channel MOSFET)
 ------
 http://www.fairchildsemi.com/ds/FD/FDS8884.pdf
+
+TSOP1736 (IR Receiver)
+------
+http://www.datasheetcatalog.org/datasheets/208/301092_DS.pdf
 
 Atmega8
 ------
@@ -11,7 +15,11 @@ Application Note - AVR335: Digital Sound Recorder with tinyAVR or megaAVR and Da
 ------
 http://www.atmel.com/Images/doc1456.pdf
 
-TSOP1736
+Article (DE): Festkommaarithmetik
 ------
-http://www.datasheetcatalog.org/datasheets/208/301092_DS.pdf
+http://www.mikrocontroller.net/articles/Festkommaarithmetik
+
+Article (DE): Analog-Digital-Converter
+------
+http://www.mikrocontroller.net/articles/AVR-GCC-Tutorial/Analoge_Ein-_und_Ausgabe
 
