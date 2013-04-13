@@ -26,6 +26,7 @@ TODO
 Links
 -------
 Using Lookup Tables for Gamma Correction on LEDs: http://www.maximintegrated.com/app-notes/index.mvp/id/3667  
+Fixed-Point FFT for Atmega: http://elm-chan.org/works/akilcd/report_e.html  
 Infrared-Multiprotocol-Decoder: http://www.mikrocontroller.net/articles/IRMP  
 
 License
