@@ -1,13 +1,25 @@
-#ignore metadata
+# ignore metadata, 
 .dropbox
 .gitignore~
+*.md~
+.~lock.*
+
+# Codeblocks
 *.depend
 *.layout
-*.md~
 
-#ignore Datasheet PDF's to keep repository smaller
+# Eagle
+*.lck
+
+#LTSpice
+*.fft
+*.log
+*.net
+*.raw
+
+# ignore Datasheet PDF's to keep repository smaller
 docs/*.pdf
 
-#ignore build directories
+# ignore build directories
 obj/
 bin/
