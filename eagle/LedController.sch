@@ -12562,73 +12562,6 @@ Source: 3M</description>
 </library>
 <library name="con-phoenix-508">
 <packages>
-<package name="MKDSN1,5/2-5,08">
-<description>&lt;b&gt;MKDSN 1,5/ 2-5,08&lt;/b&gt; Printklemme&lt;p&gt;
-Nennstrom: 13,5 A&lt;br&gt;
-Nennspannung: 250 V&lt;br&gt;
-Rastermaß: 5,08 mm&lt;br&gt;
-Polzahl: 2&lt;br&gt;
-Anschlussart: Schraubanschluss&lt;br&gt;
-Montage: Löten&lt;br&gt;
-Anschlussrichtung Leiter/Platine: 0 °&lt;br&gt;
-Artikelnummer: 1729128&lt;br&gt;
-Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
-<wire x1="-5.1011" y1="-4.05" x2="5.0589" y2="-4.05" width="0.2032" layer="21"/>
-<wire x1="-5.1011" y1="2.5243" x2="5.0589" y2="2.5243" width="0.2032" layer="21"/>
-<wire x1="-2.7211" y1="-0.63" x2="-3.6341" y2="-1.543" width="0.2032" layer="51"/>
-<wire x1="-5.1011" y1="-1.9555" x2="-5.1011" y2="-2.4479" width="0.2032" layer="21"/>
-<wire x1="-5.1011" y1="-3.327" x2="-5.2298" y2="-3.327" width="0.2032" layer="21"/>
-<wire x1="-5.2298" y1="-2.913" x2="-5.1011" y2="-2.913" width="0.2032" layer="21"/>
-<wire x1="-5.1011" y1="-3.1279" x2="-5.1011" y2="-2.913" width="0.2032" layer="21"/>
-<wire x1="-5.1011" y1="-3.327" x2="-5.1011" y2="-3.1279" width="0.2032" layer="21"/>
-<wire x1="-5.6711" y1="-2.763" x2="-5.4081" y2="-2.763" width="0.2032" layer="21"/>
-<wire x1="-5.6711" y1="-3.477" x2="-5.4081" y2="-3.477" width="0.2032" layer="21"/>
-<wire x1="-5.1011" y1="-2.913" x2="-5.1011" y2="-2.4479" width="0.2032" layer="21"/>
-<wire x1="-5.2298" y1="-3.327" x2="-5.4081" y2="-3.477" width="0.2032" layer="21"/>
-<wire x1="-5.6711" y1="-2.763" x2="-5.6711" y2="-3.477" width="0.2032" layer="21"/>
-<wire x1="-5.1011" y1="2.5243" x2="-5.1011" y2="2.0413" width="0.2032" layer="21"/>
-<wire x1="-5.1011" y1="-1.9555" x2="-5.1011" y2="2.0413" width="0.2032" layer="21"/>
-<wire x1="-5.4081" y1="-2.763" x2="-5.2298" y2="-2.913" width="0.2032" layer="21"/>
-<wire x1="5.0589" y1="-2.4479" x2="-5.1011" y2="-2.4479" width="0.2032" layer="21"/>
-<wire x1="-2.5611" y1="-0.47" x2="-2.7211" y2="-0.63" width="0.2032" layer="51"/>
-<wire x1="-3.2001" y1="-0.119" x2="-2.5611" y2="0.52" width="0.2032" layer="51"/>
-<wire x1="-4.1291" y1="-1.048" x2="-3.2001" y2="-0.119" width="0.2032" layer="51"/>
-<wire x1="0.9509" y1="-1.048" x2="1.8799" y2="-0.119" width="0.2032" layer="51"/>
-<wire x1="5.0589" y1="-1.9555" x2="5.0589" y2="-2.4479" width="0.2032" layer="21"/>
-<wire x1="2.3589" y1="-0.63" x2="1.4459" y2="-1.543" width="0.2032" layer="51"/>
-<wire x1="1.8799" y1="-0.119" x2="2.5189" y2="0.52" width="0.2032" layer="51"/>
-<wire x1="2.5189" y1="-0.47" x2="2.3589" y2="-0.63" width="0.2032" layer="51"/>
-<wire x1="4.0869" y1="1.098" x2="3.1489" y2="0.16" width="0.2032" layer="51"/>
-<wire x1="2.6379" y1="0.639" x2="3.5919" y2="1.593" width="0.2032" layer="51"/>
-<wire x1="3.1489" y1="0.16" x2="2.5189" y2="-0.47" width="0.2032" layer="51"/>
-<wire x1="2.5189" y1="0.52" x2="2.6379" y2="0.639" width="0.2032" layer="51"/>
-<wire x1="-1.9311" y1="0.16" x2="-2.5611" y2="-0.47" width="0.2032" layer="51"/>
-<wire x1="-2.5611" y1="0.52" x2="-2.4421" y2="0.639" width="0.2032" layer="51"/>
-<wire x1="-2.4421" y1="0.639" x2="-1.4881" y2="1.593" width="0.2032" layer="51"/>
-<wire x1="-0.9931" y1="1.098" x2="-1.9311" y2="0.16" width="0.2032" layer="51"/>
-<wire x1="-5.1011" y1="-3.1279" x2="5.0589" y2="-3.1279" width="0.2032" layer="21"/>
-<wire x1="5.0589" y1="-3.1279" x2="5.0589" y2="-2.4479" width="0.2032" layer="21"/>
-<wire x1="5.0589" y1="-1.9555" x2="5.0589" y2="2.0413" width="0.2032" layer="21"/>
-<wire x1="5.0589" y1="2.5243" x2="5.0589" y2="2.0413" width="0.2032" layer="21"/>
-<wire x1="5.0589" y1="2.5243" x2="5.0589" y2="4.05" width="0.2032" layer="21"/>
-<wire x1="-5.1011" y1="-3.75" x2="-5.1011" y2="-3.327" width="0.2032" layer="21"/>
-<wire x1="5.0589" y1="-3.75" x2="5.0589" y2="-3.1279" width="0.2032" layer="21"/>
-<wire x1="-5.1011" y1="4.05" x2="5.0589" y2="4.05" width="0.2032" layer="21"/>
-<wire x1="-5.1011" y1="2.5243" x2="-5.1011" y2="4.05" width="0.2032" layer="21"/>
-<wire x1="5.0589" y1="-3.75" x2="-5.1011" y2="-3.75" width="0.2032" layer="21"/>
-<wire x1="-5.1011" y1="-3.75" x2="-5.1011" y2="-4.05" width="0.2032" layer="21"/>
-<wire x1="5.0589" y1="-3.75" x2="5.0589" y2="-4.05" width="0.2032" layer="21"/>
-<wire x1="-3.2001" y1="-0.119" x2="-2.7211" y2="-0.63" width="0.2032" layer="51" curve="65.201851"/>
-<wire x1="1.8799" y1="-0.119" x2="2.3589" y2="-0.63" width="0.2032" layer="51" curve="65.201851"/>
-<wire x1="3.1489" y1="0.16" x2="2.6379" y2="0.639" width="0.2032" layer="51" curve="65.201851"/>
-<wire x1="-1.9311" y1="0.16" x2="-2.4421" y2="0.639" width="0.2032" layer="51" curve="65.201851"/>
-<circle x="-2.5611" y="0.025" radius="1.915" width="0.2032" layer="21"/>
-<circle x="2.5189" y="0.025" radius="1.915" width="0.2032" layer="21"/>
-<pad name="1" x="-2.5611" y="0.025" drill="1.3" diameter="2"/>
-<pad name="2" x="2.5189" y="0.025" drill="1.3" diameter="2"/>
-<text x="-4.7511" y="4.445" size="1.27" layer="25">&gt;NAME</text>
-<text x="6.985" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-</package>
 <package name="MKDSN1,5/4-5,08">
 <description>&lt;b&gt;MKDSN 1,5/ 4-5,08&lt;/b&gt; Printklemme&lt;p&gt;
 Nennstrom: 13,5 A&lt;br&gt;
@@ -12739,33 +12672,6 @@ Source: http://eshop.phoenixcontact.com .. 1729144.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MKDSN1,5/2-5,08" prefix="X">
-<description>&lt;b&gt;MKDSN 1,5/ 2-5,08&lt;/b&gt; Printklemme&lt;p&gt;
-Nennstrom: 13,5 A&lt;br&gt;
-Nennspannung: 250 V&lt;br&gt;
-Rastermaß: 5,08 mm&lt;br&gt;
-Polzahl: 2&lt;br&gt;
-Anschlussart: Schraubanschluss&lt;br&gt;
-Montage: Löten&lt;br&gt;
-Anschlussrichtung Leiter/Platine: 0 °&lt;br&gt;
-Artikelnummer: 1729128&lt;br&gt;
-Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
-<gates>
-<gate name="-1" symbol="KLV" x="0" y="0" addlevel="always" swaplevel="1"/>
-<gate name="-2" symbol="KLV" x="0" y="-5.08" addlevel="always" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="MKDSN1,5/2-5,08">
-<connects>
-<connect gate="-1" pin="KL" pad="1"/>
-<connect gate="-2" pin="KL" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MKDSN1,5/4-5,08" prefix="X">
 <description>&lt;b&gt;MKDSN 1,5/ 4-5,08&lt;/b&gt; Printklemme&lt;p&gt;
 Nennstrom: 13,5 A&lt;br&gt;
@@ -13164,6 +13070,22 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf</description>
 <rectangle x1="1.8288" y1="-5.7404" x2="2.5908" y2="-3.0734" layer="51"/>
 <rectangle x1="-0.381" y1="-3.8354" x2="0.381" y2="-3.0734" layer="51"/>
 </package>
+<package name="DCJACK">
+<smd name="1" x="15.5" y="-0.6" dx="2.5" dy="4" layer="1" rot="R90"/>
+<smd name="2" x="6.75" y="6.5" dx="7" dy="4" layer="1" rot="R180"/>
+<smd name="3" x="6.75" y="-6.5" dx="7" dy="4" layer="1" rot="R180"/>
+<hole x="3.5" y="2.5" drill="1.8"/>
+<hole x="3.5" y="-2.5" drill="1.8"/>
+<wire x1="0" y1="4.5" x2="3" y2="4.5" width="0.127" layer="21"/>
+<wire x1="10.5" y1="4.5" x2="13" y2="4.5" width="0.127" layer="21"/>
+<wire x1="13" y1="4.5" x2="13" y2="0" width="0.127" layer="21"/>
+<wire x1="13" y1="0" x2="13" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="13" y1="-4.5" x2="10.5" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="3" y1="-4.5" x2="0" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="0" y1="-4.5" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="4.5" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="13" y2="0" width="0.127" layer="21" style="shortdash"/>
+</package>
 </packages>
 <symbols>
 <symbol name="NMOS-FET-E">
@@ -13271,6 +13193,31 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf</description>
 <pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
 <pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
+<symbol name="DCJACK">
+<pin name="1" x="17.78" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="3" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="2" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<wire x1="12.7" y1="11.43" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="12.7" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-8.89" x2="-16.51" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="-16.51" y1="-8.89" x2="-16.51" y2="11.43" width="0.254" layer="94"/>
+<wire x1="-16.51" y1="11.43" x2="12.7" y2="11.43" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="8.89" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="8.89" x2="-11.43" y2="8.89" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="6.35" x2="-11.43" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-11.43" y1="8.89" x2="-11.43" y2="6.35" width="0.254" layer="94" curve="180"/>
+<wire x1="0" y1="0" x2="0" y2="-3.81" width="0.254" layer="94"/>
+<text x="-16.51" y="-11.43" size="1.27" layer="95">&gt;NAME</text>
+<text x="12.7" y="-11.43" size="1.27" layer="96" rot="MR0">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="PMV20EN">
@@ -13373,6 +13320,23 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="DCJACK">
+<gates>
+<gate name="G$1" symbol="DCJACK" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="DCJACK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -13395,18 +13359,17 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf</description>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="330nF"/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="R26" library="rcl" deviceset="R-EU_" device="R0805" value="100R"/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
-<part name="C15" library="rcl" deviceset="CPOL-EU" device="E2-5" value="4.7uF"/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0805" value="1uF"/>
 <part name="X1" library="con-3m" deviceset="2510-" device=""/>
-<part name="C4" library="rcl" deviceset="CPOL-EU" device="E2-5" value="100uF"/>
+<part name="C4" library="rcl" deviceset="CPOL-EU" device="153CLV-0605" value="100uF"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="PS" library="con-phoenix-508" deviceset="MKDSN1,5/2-5,08" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="X2" library="con-phoenix-508" deviceset="MKDSN1,5/4-5,08" device=""/>
@@ -13446,6 +13409,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf</description>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="U$5" library="LedController" deviceset="TSOP75236" device=""/>
 <part name="U$6" library="LedController" deviceset="L78M05ABDT-TR" device=""/>
+<part name="U$7" library="LedController" deviceset="DCJACK" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13469,6 +13433,11 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf</description>
 <wire x1="299.72" y1="289.56" x2="154.94" y2="289.56" width="0.1524" layer="97"/>
 <text x="208.28" y="175.26" size="1.778" layer="97">R: 33..1k
 C: &gt;0.1u</text>
+<text x="73.66" y="177.8" size="1.778" layer="97" rot="R90">TODO: Check rating 
+and maybe replace</text>
+<text x="5.08" y="81.28" size="1.778" layer="97">TODO: Decoupling</text>
+<text x="187.96" y="228.6" size="1.778" layer="97" rot="R90">TODO: Microphone input, check biasing</text>
+<text x="88.9" y="177.8" size="1.778" layer="97" rot="R90">TODO: Alu Cap?</text>
 </plain>
 <instances>
 <instance part="Q1" gate="G$1" x="144.78" y="66.04" smashed="yes" rot="R180">
@@ -13491,7 +13460,7 @@ C: &gt;0.1u</text>
 <instance part="GND16" gate="1" x="223.52" y="170.18"/>
 <instance part="R26" gate="G$1" x="215.9" y="187.96" rot="R180"/>
 <instance part="C10" gate="G$1" x="129.54" y="180.34"/>
-<instance part="C15" gate="G$1" x="223.52" y="182.88"/>
+<instance part="C15" gate="G$1" x="223.52" y="180.34"/>
 <instance part="X1" gate="-1" x="86.36" y="246.38" rot="R180"/>
 <instance part="X1" gate="-2" x="104.14" y="246.38"/>
 <instance part="X1" gate="-3" x="86.36" y="243.84" rot="R180"/>
@@ -13506,8 +13475,6 @@ C: &gt;0.1u</text>
 <instance part="GND2" gate="1" x="43.18" y="63.5"/>
 <instance part="GND6" gate="1" x="205.74" y="73.66"/>
 <instance part="GND9" gate="1" x="144.78" y="48.26"/>
-<instance part="PS" gate="-1" x="60.96" y="185.42" rot="R180"/>
-<instance part="PS" gate="-2" x="60.96" y="172.72" rot="R180"/>
 <instance part="GND5" gate="1" x="205.74" y="53.34"/>
 <instance part="GND7" gate="1" x="205.74" y="33.02"/>
 <instance part="X2" gate="-1" x="233.68" y="81.28"/>
@@ -13550,6 +13517,7 @@ C: &gt;0.1u</text>
 <instance part="C8" gate="G$1" x="17.78" y="73.66" rot="R180"/>
 <instance part="U$5" gate="G$1" x="254" y="182.88" rot="MR0"/>
 <instance part="U$6" gate="G$1" x="116.84" y="185.42"/>
+<instance part="U$7" gate="G$1" x="40.64" y="177.8"/>
 </instances>
 <busses>
 </busses>
@@ -13595,8 +13563,8 @@ C: &gt;0.1u</text>
 </segment>
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
-<pinref part="C15" gate="G$1" pin="-"/>
-<wire x1="223.52" y1="177.8" x2="223.52" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="223.52" y1="175.26" x2="223.52" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -13733,8 +13701,8 @@ C: &gt;0.1u</text>
 <net name="N$63" class="0">
 <segment>
 <pinref part="R26" gate="G$1" pin="1"/>
-<pinref part="C15" gate="G$1" pin="+"/>
-<wire x1="223.52" y1="185.42" x2="223.52" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="223.52" y1="182.88" x2="223.52" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="VCC"/>
 <wire x1="223.52" y1="187.96" x2="220.98" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="187.96" x2="223.52" y2="187.96" width="0.1524" layer="91"/>
@@ -13775,8 +13743,6 @@ C: &gt;0.1u</text>
 <pinref part="SUPPLY2" gate="+12V" pin="+12V"/>
 </segment>
 <segment>
-<pinref part="PS" gate="-1" pin="KL"/>
-<wire x1="63.5" y1="185.42" x2="76.2" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="Q5" gate="PMV20EN$1" pin="G"/>
 <wire x1="76.2" y1="177.8" x2="76.2" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="185.42" x2="109.22" y2="185.42" width="0.1524" layer="91"/>
@@ -13792,6 +13758,8 @@ C: &gt;0.1u</text>
 <pinref part="+12V" gate="+12V" pin="+12V"/>
 <wire x1="104.14" y1="185.42" x2="104.14" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="G$1" pin="IN"/>
+<pinref part="U$7" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="185.42" x2="76.2" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -13869,13 +13837,13 @@ C: &gt;0.1u</text>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="PS" gate="-2" pin="KL"/>
 <pinref part="Q5" gate="PMV20EN$1" pin="D"/>
-<wire x1="63.5" y1="172.72" x2="68.58" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="Q5" gate="PMV20EN$1" pin="D"/>
 <junction x="68.58" y="172.72"/>
 <pinref part="Q5" gate="PMV20EN$1" pin="D"/>
 <pinref part="Q5" gate="PMV20EN$1" pin="D"/>
+<pinref part="U$7" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="172.72" x2="58.42" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWM_B" class="0">
