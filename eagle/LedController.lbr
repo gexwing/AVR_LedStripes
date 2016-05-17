@@ -353,7 +353,7 @@ TS-003</description>
 <smd name="4" x="-1.1" y="0.8" dx="1.4" dy="1.15" layer="1"/>
 <wire x1="-1.95" y1="1.53" x2="1.95" y2="1.53" width="0.05" layer="21"/>
 <wire x1="1.95" y1="1.53" x2="1.95" y2="-1.3" width="0.05" layer="21"/>
-<wire x1="1.95" y1="-1.3" x2="1.73" y2="-1.53" width="0.05" layer="21"/>
+<wire x1="1.95" y1="-1.3" x2="1.73" y2="-1.53" width="0.05" layer="51"/>
 <wire x1="1.73" y1="-1.53" x2="-1.95" y2="-1.53" width="0.05" layer="21"/>
 <wire x1="-1.95" y1="-1.53" x2="-1.95" y2="1.53" width="0.05" layer="21"/>
 <text x="-2" y="1.7" size="0.6096" layer="25">&gt;NAME</text>
@@ -492,28 +492,27 @@ TS-003</description>
 <text x="12.7" y="-11.43" size="1.27" layer="96" rot="MR0">&gt;VALUE</text>
 </symbol>
 <symbol name="Q-SHIELD2">
-<wire x1="2.286" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0.254" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.889" y1="1.524" x2="0.889" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="0.889" y1="-1.524" x2="1.651" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="1.651" y1="-1.524" x2="1.651" y2="1.524" width="0.254" layer="94"/>
-<wire x1="1.651" y1="1.524" x2="0.889" y2="1.524" width="0.254" layer="94"/>
-<wire x1="2.286" y1="1.778" x2="2.286" y2="0" width="0.254" layer="94"/>
-<wire x1="2.286" y1="0" x2="2.286" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="0.254" y1="1.778" x2="0.254" y2="0" width="0.254" layer="94"/>
-<wire x1="0.254" y1="0" x2="0.254" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="3.556" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.159" y1="1.524" x2="2.159" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="2.159" y1="-1.524" x2="2.921" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="2.921" y1="-1.524" x2="2.921" y2="1.524" width="0.254" layer="94"/>
+<wire x1="2.921" y1="1.524" x2="2.159" y2="1.524" width="0.254" layer="94"/>
+<wire x1="3.556" y1="1.778" x2="3.556" y2="0" width="0.254" layer="94"/>
+<wire x1="3.556" y1="0" x2="3.556" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="1.524" y1="1.778" x2="1.524" y2="0" width="0.254" layer="94"/>
+<wire x1="1.524" y1="0" x2="1.524" y2="-1.778" width="0.254" layer="94"/>
 <wire x1="-1.778" y1="1.905" x2="-1.778" y2="2.54" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="-1.778" y1="2.54" x2="4.318" y2="2.54" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="4.318" y1="2.54" x2="4.318" y2="1.905" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="4.318" y1="-1.905" x2="4.318" y2="-2.54" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="-1.778" y1="-2.54" x2="4.318" y2="-2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-1.778" y1="2.54" x2="6.858" y2="2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="6.858" y1="2.54" x2="6.858" y2="1.905" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="6.858" y1="-1.905" x2="6.858" y2="-2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-1.778" y1="-2.54" x2="6.858" y2="-2.54" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-1.905" width="0.1524" layer="94" style="shortdash"/>
 <text x="-2.54" y="6.096" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.54" y="3.81" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="7.62" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
-<pin name="4" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="2" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -662,9 +661,8 @@ Source: Epson Toyocom</description>
 <device name="" package="FA-238">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="2" pad="2 4" route="any"/>
 <connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
